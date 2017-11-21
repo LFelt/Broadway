@@ -14,10 +14,10 @@ a {
   color: white;
 }
 
-h1,
- ul {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
-}
+.hero-image {
+  background: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png") no-repeat center fixed;
+ background-size: cover;
+  }
 
 ul {
   list-style-type: none;

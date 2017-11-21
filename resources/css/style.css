@@ -7,22 +7,50 @@ h1 {
   color: white;
   font-weight: bold;
 }
-ul {
+
+ul,
+a {
   font-size: 18px;
   color: white;
-
 }
 
 h1,
-ul {
+ ul {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
 }
 
-h3 .New-York {
+ul {
+  list-style-type: none;
+}
+
+.New-York {
   background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
   font-weight: bold;
+  color: white;
 }
 
 h3 {
   font-size: 23px;
+}
+p {
+  font-size: 14px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h4,
+.link{
+  text-align: left;
+  background-color: dimgray;
+  color: white;
+  font-size: 18px;
+}
+
+.footer {
+  font-size: 11px;
+  color: white;
+  font-weight: normal;
 }
